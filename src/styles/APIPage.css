@@ -1,0 +1,44 @@
+/*  是数据接口请求页面的样式 */
+
+.booklist {
+  border: 1px solid #e32d2d;
+  width: 240px;
+  font-size: 20px;
+  display: inline-block;
+  margin: 10px;
+}
+.booklist p {
+  margin: 5px 2px;
+}
+
+/* 新增的弹出框 */
+.bgModal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addModal,
+.changeModal {
+  background-color: #fff;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  /* margin: auto; */
+}
+
+.addModal input,
+.changeModal input {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 40px;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
